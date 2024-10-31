@@ -1,8 +1,8 @@
 import Contact from "../Contact/Contact";
 
-const ContactList = ({ contactList }) => {
+const ContactList = ({ contactList, handleDelete }) => {
     return <ul>
-        {contactList.map(contact => <Contact key={contact.id} contact={contact} />)}
+        {contactList.map(contact => <Contact key={contact.id} contact={contact} handleDelete={handleDelete} />)}
     </ul>
 };
 

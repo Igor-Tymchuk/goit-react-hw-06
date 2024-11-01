@@ -35,7 +35,7 @@ const App = () => {
   };
 
   return <div>
-    <h1>Phonebook</h1>
+    <h1>Phone<span>book</span></h1>
     <ContactForm handleSubmit={handleSubmit} />
     <SearchBox handleSearch={handleSearch} search={search} />
     <ContactList contactList={filteredContacts} handleDelete={handleDelete} />

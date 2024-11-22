@@ -20,11 +20,16 @@
   border-radius: 5px;
   padding: 8px;
   border: none;
+  text-align: center;
   transition: outline 0.3s ease-in-out;
   &:hover {
     outline: 1px solid gray;
   }
   &:focus-within {
     outline: 1px solid #2d2d6b;
+  }
+  &::placeholder {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 }

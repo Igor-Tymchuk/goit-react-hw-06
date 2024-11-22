@@ -15,6 +15,10 @@
       display: flex;
       align-items: center;
       margin-right: 5px;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      word-break: break-word;
+      white-space: normal;
     }
     & p:nth-child(1) {
       font-weight: bold;
@@ -24,6 +28,7 @@
 .icon {
   fill: #2d2d6b;
   margin-right: 5px;
+  min-width: 16px;
 }
 
 .btn {
